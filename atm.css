@@ -1,0 +1,101 @@
+/*汎用設定*/
+body {
+    font-family: "M PLUS Rounded 1c";
+    margin: 0;
+    padding: 0;
+    background-color: #F4FFF8;
+}
+
+.none {
+    display: none !important;
+}
+
+#accountMenu {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#accountMenu>div {
+    padding: 0 35px;
+    width: 100%;
+}
+.content>div{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*サイドメニュー*/
+nav {
+    height: 100%;
+    min-width: 200px;
+    background-color: #0B9D6B;
+    color: #FFFFFF;
+
+}
+h4 {
+    margin: 10px 5px 5px 5px;
+    border-bottom: 1px solid #FFFFFF;
+    letter-spacing: 0.1em;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li {
+    font-size: 1.2em;
+    height: 45px;
+    line-height: 45px;
+    letter-spacing: 0.5em;
+}
+li>p {
+    width: 120px;
+    margin: 0 auto;
+}
+li:hover {
+    background-color: #0ECC8A;
+    cursor: pointer;
+}
+
+h1 {
+    display: inline-block;
+    width: 100%;
+    margin: 35px 0;
+    color: #043322;
+    border-bottom: 1px solid #043322;
+    letter-spacing: 0.3em;
+}
+
+/*個別設定*/
+/*口座開設*/
+#accountOpningErea {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#accountOpningErea button {
+    padding-right: 0px;
+    font-size: 1.8em;
+    letter-spacing: 0.5em;
+    color: #FFFFFF;
+    background-color: #0B9D6B;
+}
+/*残高照会*/
+#checkBalanceErea p:nth-of-type(2) {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#checkBalanceErea span {
+    font-size: 2em;
+    margin-right: 5px;
+}
+/*引き出し・預け入れ*/
+.hasForm>div {
+    text-align: center;
+    padding: 20px 0;
+}
+.hasForm p {
+    margin-bottom: 2rem;
+}
